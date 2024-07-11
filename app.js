@@ -117,5 +117,5 @@ app.post("/reset-password", async (req, res) => {
 
 
 app.listen(30003,()=>{
-    console.log("dfds")
+    console.log("server running")
 })
