@@ -1,0 +1,45 @@
+###
+POST  http://localhost:30003/signup
+Content-Type: application/json
+
+{
+    "email":"indrasena197@gmail.com",
+    "username":"indras",
+    "password":"Indra@321"
+
+}
+
+
+
+###
+POST  http://localhost:30003/login
+Content-Type: application/json
+
+{
+    "username":"indras",
+    "password":"Indra@321"
+
+}
+
+
+
+###
+POST  http://localhost:30003/forgot-password
+Content-Type: application/json
+
+{
+    
+  "email":"indrasena197@gmail.com"
+}
+
+
+
+###
+POST  http://localhost:30003/reset-password
+Content-Type: application/json
+
+{
+    
+  "email":"indrasena197@gmail.com",
+  "newPassword":"indrasena"
+}
